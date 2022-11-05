@@ -29,8 +29,8 @@
 #The element has been deleted
 #This is the new array: Array: [1, 4, 3, 4, 5, 6 ,2 ,56, 200]
 Array = [6, 4, 2, 8, 10, 18, 14, 16, 12, 20]
-print("Index Array :[0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ]")
-print(f"Array: {Array}")
+print("Index Array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ]")
+print(f"      Array: {Array}")
 print("Menu:")
 print("Pick A number on this")
 print("1 -> Add an element")
@@ -57,8 +57,11 @@ def num1():
     
     elif Question == 3:
         Type_num4 = int(input("Type the index position do you want to Modify: "))
+        Type_num5 = int(input("Type the Number that you want to add: "))
         Add2 = Array.pop(Type_num4)
+        Array.insert(Type_num4, Type_num5)
         print("The element has been Modify")
+
         return Add2
 
     elif Question == 4:

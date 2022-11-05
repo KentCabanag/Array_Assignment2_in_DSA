@@ -75,7 +75,7 @@ def num1():
 
     elif Question == 6:
         Add5 = Array.reverse()
-        print("\033[36;1mTThe element has been arrange to descending order\033[0m")
+        print("\033[36;1mThe element has been arrange to descending order\033[0m")
         return Add5
 
 
